@@ -1,0 +1,105 @@
+# PROMPT MAESTRO — Sitio web premium de criadero de gatos persas
+
+ Reemplaza los campos entre `[CORCHETES]` antes de ejecutar el prompt.
+ Pégalo completo en Antigravity como primer mensaje del proyecto.
+
+---
+
+## ROL
+
+Actúa como un equipo senior compuesto por director de arte digital especializado en marcas de lujo, desarrollador front-end experto en Next.js y especialista en conversión (CRO). Vas a construir, no a describir. Genera código real, completo y ejecutable.
+
+## PROYECTO
+
+Sitio web para [NOMBRE DEL CRIADERO], criadero especializado en gatos persas ubicado en [CIUDAD, PAÍS]. Objetivo comercial que un visitante interesado termine enviando una solicitud de reserva por formulario o WhatsApp. Todo el contenido en español, precios en [MONEDA].
+
+Público objetivo personas de poder adquisitivo medio-alto que buscan un gato de pedigrí y necesitan confiar en el criador antes de pagar. La web debe transmitir exclusividad, sanidad y seriedad, no tienda de mascotas.
+
+## STACK TÉCNICO
+
+- Next.js 15 (App Router) + TypeScript en modo estricto
+- Tailwind CSS con tokens de diseño personalizados en `tailwind.config.ts`
+- Framer Motion para animaciones
+- `nextimage` para todas las imágenes, con `placeholder=blur`
+- Datos de los gatitos en `datakittens.ts` tipado, fácil de editar sin tocar componentes
+- Formularios con React Hook Form + Zod; envío por API route y fallback a WhatsApp
+- Sin dependencias innecesarias. Sin librerías de UI genéricas tipo Bootstrap o Material.
+
+## DIRECCIÓN DE ARTE — NEGRO Y DORADO
+
+Referencia mental joyería de alta gama y hotelería de lujo. Elegante y respirado, nunca recargado ni casino.
+
+Paleta (usar exactamente estos tokens)
+
+ Token  Hex  Uso 
+---------
+ `noir`  `#0A0A0B`  Fondo principal 
+ `noir-soft`  `#141416`  Superficies, tarjetas 
+ `noir-line`  `#26262A`  Bordes sutiles 
+ `gold`  `#C9A227`  Acento principal, CTAs 
+ `gold-light`  `#E7D08A`  Texto destacado, hovers 
+ `gold-deep`  `#8C6D1F`  Sombras y degradados del dorado 
+ `bone`  `#F2EFE7`  Texto principal sobre negro 
+ `muted`  `#A3A099`  Texto secundario 
+
+Reglas de uso del dorado el dorado es acento, no fondo. Máximo ~10% de la superficie visible. Usar degradado lineal `gold-deep → gold-light → gold` para bordes finos, filetes divisorios y texto de titulares clave. Prohibido el dorado plano sobre grandes áreas.
+
+Tipografía títulos en `Cormorant Garamond` (600700, tracking ligeramente negativo, tamaños generosos de 48–96px en desktop); cuerpo en `Inter` (400500, 16–18px, interlineado 1.7); microcopy y etiquetas en Inter uppercase con `letter-spacing 0.18em` y tamaño 11–12px.
+
+Detalles obligatorios
+- Espaciado generoso secciones con `py-28` o más en desktop.
+- Filetes dorados de 1px como separadores, con degradado que se desvanece en los extremos.
+- Granotextura muy sutil sobre el fondo negro (overlay de ruido al 3–4% de opacidad) para evitar el negro plano digital.
+- Fotos de los gatos siempre en marcos con esquinas rectas y borde dorado de 1px; al hover, zoom 1.04 en 600ms con easing suave.
+- Animaciones de entrada por scroll fade + translateY de 24px, escalonadas 80ms. Nada de rebotes ni efectos llamativos.
+- Cursor y focus states cuidados; el foco de teclado debe verse en dorado.
+
+## ESTRUCTURA DEL SITIO
+
+1. Home
+   - Hero a pantalla completa foto de un persa a gran formato, titular con una promesa clara, subtítulo con una línea de credibilidad (años de experiencia, número de camadas), CTA primario Ver gatitos disponibles y secundario Hablar por WhatsApp. Indicador de scroll discreto.
+   - Franja de confianza pedigrí registrado, desparasitación y vacunas al día, contrato de compraventa, seguimiento post-entrega. Iconografía lineal fina en dorado.
+   - Gatitos disponibles grid de tarjetas con foto, nombre, edad, sexo, color, estado (`Disponible`  `Reservado`  `Entregado`) y precio. Los reservados se muestran en escala de grises con sello diagonal.
+   - Sobre el criadero foto del criador con los gatos, historia breve en primera persona, y el porqué de la crianza responsable.
+   - Proceso de adopción en 4 pasos contacto → videollamada y elección → reserva con anticipo → entrega con kit y documentación.
+   - Garantía de salud qué incluye, plazos, qué certificados se entregan.
+   - Galería tipo mosaico con lightbox.
+   - Testimonios de familias con foto del gato adulto.
+   - FAQ en acordeón (mínimo 8 preguntas cuidados del pelaje, alimentación, envíos a otras ciudades, formas de pago, edad de entrega, esterilización, convivencia con niños y otras mascotas, qué pasa si el gato enferma).
+   - CTA final + footer con datos de contacto, redes y aviso legal.
+
+2. gatitos — Listado completo con filtros por color, sexo, edad y disponibilidad. Filtros en cliente, sin recarga.
+
+3. gatitos[slug] — Ficha individual galería de 4–6 fotos, datos del ejemplar, información de los padres con sus fotos, qué incluye la entrega, precio, y formulario de reserva contextual con el nombre del gatito precargado.
+
+4. contacto — Formulario, WhatsApp, ubicación aproximada y horarios.
+
+## COPY
+
+Escribe tú todos los textos en español neutro, cálido y con autoridad. Nada de relleno tipo bienvenidos a nuestra página web. Frases cortas, concretas y orientadas a resolver la desconfianza del comprador. Donde no tengas el dato real, usa un placeholder evidente en formato `[[DATO descripción]]` para que sea fácil de encontrar y reemplazar.
+
+## CONVERSIÓN
+
+- CTA de WhatsApp fijo en móvil (botón flotante inferior derecho, dorado, con contraste suficiente).
+- Cada tarjeta de gatito lleva a su ficha; cada ficha tiene el formulario de reserva visible sin hacer scroll largo.
+- Prueba social y garantías repartidas a lo largo de la página, no agrupadas en una sola sección.
+- Escasez honesta mostrar cuántos gatitos quedan de la camada, sin inventar urgencia falsa.
+
+## CALIDAD — CRITERIOS DE ACEPTACIÓN
+
+- Responsive impecable en 375px, 768px, 1440px y 1920px. Diseña primero el móvil.
+- Accesibilidad AA contraste verificado del dorado sobre negro (usar `gold-light` para texto pequeño, `gold` solo en textos grandes o elementos no textuales), HTML semántico, `alt` descriptivos en todas las fotos, navegación completa por teclado, `prefers-reduced-motion` respetado.
+- Lighthouse ≥ 95 en Performance, Accessibility, Best Practices y SEO.
+- SEO metadatos por página, Open Graph, `sitemap.xml`, `robots.txt` y datos estructurados JSON-LD (`LocalBusiness` y `Product` para cada gatito).
+- Sin errores de TypeScript ni warnings de consola.
+
+## ENTREGABLES
+
+Estructura de carpetas completa, todos los componentes implementados (nada de ` TODO`), `tailwind.config.ts` con los tokens, datos de ejemplo con 6 gatitos, `README.md` explicando cómo editar el catálogo y cambiar textos, e imágenes placeholder con las dimensiones correctas indicadas.
+
+## FORMA DE TRABAJO
+
+1. Primero muéstrame la estructura de archivos y el sistema de diseño (tokens + tipografía) y espera mi visto bueno.
+2. Luego construye página por página, empezando por Home.
+3. Al terminar cada bloque, indícame qué falta y qué decisiones tomaste.
+4. Pregunta antes de asumir cualquier dato del negocio que no te haya dado.
