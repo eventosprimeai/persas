@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, MessageCircle, Sparkles } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { catteryConfig } from "@/data/cattery";
 import { getWhatsAppUrl } from "@/lib/utils";
@@ -12,11 +12,12 @@ import { LogoMark } from "@/components/common/Logo";
 
 const NAV_LINKS = [
   { href: "/", label: "Inicio" },
-  { href: "/gatitos", label: "Gatitos Disponibles" },
-  { href: "/#criadero", label: "El Criadero" },
-  { href: "/#adopcion", label: "Proceso de Adopción" },
+  { href: "/gatitos", label: "Gatitos" },
+  { href: "/raza-persa", label: "Guía de Raza" },
+  { href: "/#criadero", label: "Criadero" },
+  { href: "/#adopcion", label: "Adopción" },
   { href: "/#garantias", label: "Garantías" },
-  { href: "/#faqs", label: "Preguntas Frecuentes" },
+  { href: "/#faqs", label: "Preguntas" },
   { href: "/contacto", label: "Contacto" },
 ];
 
@@ -54,13 +55,12 @@ export function Header() {
         {/* Brand Logo */}
         <Link href="/" className="group flex items-center gap-3 focus-visible:outline-gold">
           <LogoMark className="w-9 h-9 sm:w-10 sm:h-10 shrink-0 transition-transform duration-300 group-hover:scale-105" />
-          <span className="flex flex-col">
-            <span className="font-cormorant text-2xl sm:text-3xl font-bold tracking-tight text-bone group-hover:text-gold-light transition-colors duration-300">
-              IMPERIUM{" "}
-              <span className="text-gold-gradient italic font-normal">PERSIANS</span>
+          <span className="flex flex-col min-w-0">
+            <span className="font-cormorant text-2xl sm:text-3xl font-bold tracking-tight text-gold-gradient italic group-hover:opacity-90 transition-opacity duration-300 whitespace-nowrap">
+              PERSIAN&rsquo;S
             </span>
-            <span className="text-[9px] uppercase tracking-[0.25em] text-gold-light/80 -mt-1">
-              Criadero de Alta Pureza Genética
+            <span className="text-[9px] uppercase tracking-[0.25em] text-gold-light/80 -mt-1 whitespace-nowrap">
+              Gatos de Alta Pureza
             </span>
           </span>
         </Link>
@@ -73,7 +73,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-xs uppercase tracking-luxury transition-all duration-300 relative py-1 ${
+                className={`text-xs uppercase tracking-luxury transition-all duration-300 relative py-1 whitespace-nowrap ${
                   isActive
                     ? "text-gold-light font-semibold"
                     : "text-bone/80 hover:text-gold-light"
@@ -101,15 +101,6 @@ export function Header() {
             leftIcon={<MessageCircle className="w-3.5 h-3.5 text-gold" />}
           >
             WhatsApp
-          </Button>
-
-          <Button
-            href="/gatitos"
-            variant="primary"
-            size="sm"
-            rightIcon={<Sparkles className="w-3.5 h-3.5 text-noir" />}
-          >
-            Ver Gatitos
           </Button>
         </div>
 
@@ -148,15 +139,6 @@ export function Header() {
               ))}
 
               <div className="pt-4 flex flex-col space-y-3">
-                <Button
-                  href="/gatitos"
-                  variant="primary"
-                  size="md"
-                  fullWidth
-                  rightIcon={<Sparkles className="w-4 h-4 text-noir" />}
-                >
-                  Ver Gatitos Disponibles
-                </Button>
                 <Button
                   href={whatsappUrl}
                   isExternal

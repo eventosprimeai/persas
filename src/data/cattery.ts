@@ -1,8 +1,8 @@
 import { CatteryConfig, Testimonial } from "@/types";
 
 export const catteryConfig: CatteryConfig = {
-  name: "Imperium Persians",
-  legalName: "Imperium Persians Cattery S.L.",
+  name: "PERSIAN´S",
+  legalName: "PERSIAN´S Cattery",
   tagline: "Crianza selecta y ética de gatos persas de alta pureza genética",
   founderName: "Elena V. de Montellano",
   experienceYears: 12,
@@ -15,9 +15,9 @@ export const catteryConfig: CatteryConfig = {
     shippingInfo: "Entrega personalizada en mano en tu ciudad, o mediante transporte especializado pet-nanny con protocolo de bioseguridad a Quito, Guayaquil, Cuenca y demás ciudades del Ecuador.",
   },
   contact: {
-    phoneFormatted: "+593 99 000 0000",
-    whatsappNumber: "593990000000",
-    whatsappDefaultMessage: "Hola Imperium Persians, me gustaría solicitar información sobre la disponibilidad de gatitos persas y el proceso de reserva.",
+    phoneFormatted: "+593 96 999 7871",
+    whatsappNumber: "593969997871",
+    whatsappDefaultMessage: "Hola PERSIAN´S, me gustaría solicitar información sobre la disponibilidad de gatitos persas y el proceso de reserva.",
     email: "adopciones@imperiumpersians.com",
     instagram: "https://instagram.com/imperiumpersians",
     facebook: "https://facebook.com/imperiumpersians",
@@ -132,7 +132,7 @@ export const testimonials: Testimonial[] = [
     city: "Cuenca",
     kittenName: "Baron Sterling",
     variety: "Persa Smoke",
-    quote: "La entrega con protocolo pet-nanny hasta Cuenca fue impecable. Es mi tercer gato persa y sin duda el linaje de Imperium Persians destaca por salud respiratoria, ojos limpios y un pelaje denso y sedoso. Nada que ver con lo que vi anunciado en Mercado Libre.",
+    quote: "La entrega con protocolo pet-nanny hasta Cuenca fue impecable. Es mi tercer gato persa y sin duda el linaje de PERSIAN´S destaca por salud respiratoria, ojos limpios y un pelaje denso y sedoso. Nada que ver con lo que vi anunciado en Mercado Libre.",
     year: "2024",
     photo: "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=80&w=800&auto=format&fit=crop",
   },

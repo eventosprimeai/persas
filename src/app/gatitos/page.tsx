@@ -5,7 +5,7 @@ import { kittensData } from "@/data/kittens";
 import { KittenFilter } from "@/components/kittens/KittenFilter";
 
 export const metadata: Metadata = {
-  title: "Gatitos Persas Disponibles | Imperium Persians",
+  title: "Gatitos Persas Disponibles | PERSIAN´S",
   description:
     "Catálogo oficial de gatitos persas con pedigrí WCF/TICA. Ejemplares Chinchilla Golden Shaded, Silver y Bicolor 100% libres de PKD por ADN. Reserva con contrato y garantía.",
 };

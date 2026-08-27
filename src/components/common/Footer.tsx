@@ -15,8 +15,8 @@ export function Footer() {
           {/* Col 1: Brand & Philosophy */}
           <div className="space-y-4">
             <Link href="/" className="inline-block">
-              <span className="font-cormorant text-2xl font-bold tracking-tight text-bone">
-                IMPERIUM <span className="text-gold-gradient italic">PERSIANS</span>
+              <span className="font-cormorant text-2xl font-bold tracking-tight whitespace-nowrap">
+                <span className="text-gold-gradient italic">PERSIAN&rsquo;S</span>
               </span>
             </Link>
             <p className="text-sm text-muted leading-relaxed">
@@ -41,6 +41,14 @@ export function Footer() {
                 >
                   <span>Gatitos Disponibles</span>
                   <ArrowUpRight className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/raza-persa"
+                  className="text-muted hover:text-gold-light transition-colors"
+                >
+                  Guía Oficial de la Raza
                 </Link>
               </li>
               <li>

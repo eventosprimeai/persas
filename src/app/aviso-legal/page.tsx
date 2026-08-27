@@ -4,7 +4,7 @@ import { catteryConfig } from "@/data/cattery";
 
 export const metadata: Metadata = {
   title: `Aviso Legal | ${catteryConfig.name}`,
-  description: "Información legal, identificación del titular y condiciones generales de uso del sitio web de Imperium Persians.",
+  description: "Información legal, identificación del titular y condiciones generales de uso del sitio web de PERSIAN´S.",
   robots: { index: true, follow: true },
 };
 

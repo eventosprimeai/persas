@@ -4,7 +4,7 @@ import { catteryConfig } from "@/data/cattery";
 
 export const metadata: Metadata = {
   title: `Política de Privacidad | ${catteryConfig.name}`,
-  description: "Cómo tratamos, protegemos y utilizamos tus datos personales en Imperium Persians, conforme a la Ley Orgánica de Protección de Datos Personales (LOPDP) del Ecuador.",
+  description: "Cómo tratamos, protegemos y utilizamos tus datos personales en PERSIAN´S, conforme a la Ley Orgánica de Protección de Datos Personales (LOPDP) del Ecuador.",
   robots: { index: true, follow: true },
 };
 

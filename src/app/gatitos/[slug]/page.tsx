@@ -39,12 +39,12 @@ export async function generateMetadata({
 
   if (!kitten) {
     return {
-      title: "Gatito No Encontrado | Imperium Persians",
+      title: "Gatito No Encontrado | PERSIAN´S",
     };
   }
 
   return {
-    title: `${kitten.name} | ${kitten.variety} - Imperium Persians`,
+    title: `${kitten.name} | ${kitten.variety} - PERSIAN´S`,
     description: kitten.description,
     openGraph: {
       title: `${kitten.name} - Gato Persa de Pedigrí`,

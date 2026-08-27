@@ -92,7 +92,7 @@ export function MosaicGallery() {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-luxury text-gold-light font-medium">
-                    Imperium Persians
+                    Persian´s
                   </p>
                   <p className="text-sm text-bone font-medium mt-1">{img.caption}</p>
                 </div>

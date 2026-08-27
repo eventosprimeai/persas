@@ -3,8 +3,8 @@ import { LegalLayout, LegalSection } from "@/components/legal/LegalLayout";
 import { catteryConfig } from "@/data/cattery";
 
 export const metadata: Metadata = {
-  title: `Condiciones de Reserva | ${catteryConfig.name}`,
-  description: "Términos y condiciones aplicables a la reserva, señal, entrega y garantía sanitaria de los gatitos de Imperium Persians.",
+  title: `Condiciones de Reserva y Garantía | ${catteryConfig.name}`,
+  description: "Términos y condiciones aplicables a la reserva, señal, entrega y garantía sanitaria de los gatitos de PERSIAN´S.",
   robots: { index: true, follow: true },
 };
 

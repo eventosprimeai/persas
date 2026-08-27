@@ -4,7 +4,7 @@ import { catteryConfig } from "@/data/cattery";
 
 export const metadata: Metadata = {
   title: `Política de Cookies | ${catteryConfig.name}`,
-  description: "Información sobre el uso de cookies técnicas en el sitio web de Imperium Persians.",
+  description: "Información sobre el uso de cookies técnicas en el sitio web de PERSIAN´S.",
   robots: { index: true, follow: true },
 };
 

@@ -68,7 +68,7 @@ export function ReservationForm({
     }
   };
 
-  const whatsappDirectMsg = `Hola Imperium Persians, me gustaría solicitar la reserva de ${kittenName} (${variety}). ¿Podrían indicarme los siguientes pasos?`;
+  const whatsappDirectMsg = `Hola PERSIAN´S, me gustaría solicitar la reserva de ${kittenName} (${variety}). ¿Podrían indicarme los siguientes pasos?`;
   const whatsappUrl = getWhatsAppUrl(catteryConfig.contact.whatsappNumber, whatsappDirectMsg);
 
   if (isSubmitted) {

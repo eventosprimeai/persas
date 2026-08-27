@@ -218,7 +218,7 @@ export default function ContactoPage() {
                   Mensaje Enviado con Éxito
                 </h3>
                 <p className="text-xs sm:text-sm text-muted leading-relaxed max-w-md mx-auto">
-                  Gracias por comunicarte con Imperium Persians. Revisaremos tu consulta y nos pondremos en contacto contigo lo antes posible.
+                  Gracias por comunicarte con PERSIAN´S. Revisaremos tu consulta y nos pondremos en contacto contigo lo antes posible.
                 </p>
                 <div className="pt-4">
                   <Button onClick={() => setIsSubmitted(false)} variant="gold-outline" size="sm">

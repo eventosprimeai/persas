@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 import { WhatsAppFloating } from "@/components/common/WhatsAppFloating";
+import { ViewKittensFloating } from "@/components/common/ViewKittensFloating";
 import { NoiseOverlay } from "@/components/common/NoiseOverlay";
 import { getCatteryJsonLd } from "@/lib/jsonld";
 
@@ -29,7 +30,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Imperium Persians | Gatos Persas con Pedigrí en Ecuador",
+  title: "PERSIAN´S | Gatos Persas con Pedigrí en Ecuador",
   description:
     "Criadero especializado en gatos persas de pedigrí en Ecuador. Fotos y video reales antes de comprar, ejemplares 100% libres de PKD por ADN, precio claro sin sorpresas y entrega segura a Quito, Guayaquil, Cuenca y todo el país.",
   keywords: [
@@ -42,14 +43,14 @@ export const metadata: Metadata = {
     "gato persa chinchilla ecuador",
     "gatitos persas libres de pkd",
   ],
-  authors: [{ name: "Imperium Persians" }],
-  creator: "Imperium Persians",
+  authors: [{ name: "PERSIAN´S" }],
+  creator: "PERSIAN´S",
   openGraph: {
     type: "website",
     locale: "es_EC",
     url: "https://imperiumpersians.com",
-    siteName: "Imperium Persians",
-    title: "Imperium Persians | Gatos Persas con Pedigrí en Ecuador",
+    siteName: "PERSIAN´S",
+    title: "PERSIAN´S | Gatos Persas con Pedigrí en Ecuador",
     description:
       "Fotos y video 100% reales, salud genética certificada y precio claro desde el primer mensaje. Conoce nuestros gatitos persas disponibles en Ecuador.",
     images: [
@@ -57,13 +58,13 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1200&auto=format&fit=crop",
         width: 1200,
         height: 630,
-        alt: "Gato Persa Chinchilla de Imperium Persians",
+        alt: "Gato Persa Chinchilla de PERSIAN´S",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Imperium Persians | Criadero de Gatos Persas de Pedigrí",
+    title: "PERSIAN´S | Criadero de Gatos Persas de Pedigrí",
     description: "Crianza selecta y ética de gatos persas. Salud garantizada por ADN.",
     images: ["https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1200&auto=format&fit=crop"],
   },
@@ -104,6 +105,7 @@ export default function RootLayout({
         <main className="relative min-h-screen">{children}</main>
         <Footer />
         <WhatsAppFloating />
+        <ViewKittensFloating />
       </body>
     </html>
   );

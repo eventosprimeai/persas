@@ -4,7 +4,7 @@ export function LogoMark({ className = "w-10 h-10" }: { className?: string }) {
       viewBox="0 0 64 64"
       className={className}
       role="img"
-      aria-label="Emblema Imperium Persians"
+      aria-label="Emblema Persian's"
     >
       <defs>
         <linearGradient id="logoGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -38,7 +38,7 @@ export function LogoMark({ className = "w-10 h-10" }: { className?: string }) {
         fontSize="25"
         fill="url(#logoGoldGrad)"
       >
-        IP
+        P
       </text>
     </svg>
   );
