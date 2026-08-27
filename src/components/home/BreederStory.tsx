@@ -13,11 +13,12 @@ export function BreederStory() {
             <div className="relative aspect-[4/5] w-full border border-gold/40 shadow-2xl p-2 bg-noir">
               <div className="relative w-full h-full overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?q=80&w=1200&auto=format&fit=crop"
-                  alt={`Criadora ${catteryConfig.founderName} en las instalaciones de ${catteryConfig.name}`}
+                  src="/images/calico_seccion_criadero.webp"
+                  alt={`Crianza familiar de gatos persas en ${catteryConfig.name}`}
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
-                  className="object-cover object-center"
+                  className="object-cover object-center transition-transform duration-700 hover:scale-105"
+                  priority
                 />
               </div>
 
