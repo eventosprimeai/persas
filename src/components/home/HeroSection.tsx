@@ -14,7 +14,7 @@ export function HeroSection() {
   );
 
   return (
-    <section className="relative min-h-[95vh] sm:min-h-screen flex items-center justify-center overflow-hidden pt-32 sm:pt-40 md:pt-44 pb-20">
+    <section className="relative min-h-[92vh] sm:min-h-screen flex items-center justify-center overflow-hidden pt-24 sm:pt-28 pb-16">
       {/* Background Image with Dark Luxury Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -32,7 +32,7 @@ export function HeroSection() {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left pt-4 sm:pt-8">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left pt-6 sm:pt-4">
         {/* Experience & Trust Badges Row */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
