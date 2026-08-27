@@ -5,11 +5,11 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function formatPrice(amount: number, currency: string = "EUR"): string {
+export function formatPrice(amount: number, currency: string = "USD"): string {
   try {
-    return new Intl.NumberFormat("es-ES", {
+    return new Intl.NumberFormat("es-EC", {
       style: "currency",
-      currency: currency === "USD" ? "USD" : currency === "MXN" ? "MXN" : currency === "COP" ? "COP" : "EUR",
+      currency: currency === "EUR" ? "EUR" : currency === "MXN" ? "MXN" : currency === "COP" ? "COP" : "USD",
       maximumFractionDigits: 0,
     }).format(amount);
   } catch {
@@ -19,7 +19,7 @@ export function formatPrice(amount: number, currency: string = "EUR"): string {
 
 export function formatBirthDate(dateStr: string): string {
   const date = new Date(dateStr);
-  return date.toLocaleDateString("es-ES", {
+  return date.toLocaleDateString("es-EC", {
     day: "numeric",
     month: "long",
     year: "numeric",

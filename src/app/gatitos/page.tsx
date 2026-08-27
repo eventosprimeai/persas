@@ -35,7 +35,7 @@ export default function GatitosPage() {
             </span>
           </h1>
           <p className="mt-4 text-base sm:text-lg text-muted leading-relaxed">
-            Cada ejemplar cuenta con certificado de pedigrí de 5 generaciones, test genético de ADN libre de PKD, pasaporte europeo, microchip y 2 años de garantía de salud contractual.
+            Cada ejemplar cuenta con certificado de pedigrí de 5 generaciones, test genético de ADN libre de PKD, cartilla de vacunación, microchip y 2 años de garantía de salud contractual.
           </p>
         </div>
 

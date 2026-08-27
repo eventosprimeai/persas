@@ -13,7 +13,7 @@ export function getCatteryJsonLd() {
     url: "https://imperiumpersians.com",
     telephone: catteryConfig.contact.phoneFormatted,
     email: catteryConfig.contact.email,
-    priceRange: "€€€€",
+    priceRange: "$$$",
     address: {
       "@type": "PostalAddress",
       addressLocality: catteryConfig.location.city,

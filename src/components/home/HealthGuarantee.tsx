@@ -5,7 +5,7 @@ import { SectionHeading } from "@/components/common/SectionHeading";
 export function HealthGuarantee() {
   const documentationIncluded = [
     "Certificado Oficial de Pedigrí WCF / TICA (5 generaciones)",
-    "Pasaporte Sanitario Europeo y microchip homologado ISO",
+    "Cartilla de vacunación y salud oficial con microchip homologado ISO",
     "Cartilla con pauta vacunal completa (Trivalente felina + refuerzo)",
     "Certificado de salud expedido por veterinario colegiado en las 48h previas",
     "Informe de laboratorio de ADN negativo a PKD y PRA de los progenitores",

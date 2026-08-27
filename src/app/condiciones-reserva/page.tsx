@@ -83,9 +83,10 @@ export default function CondicionesReservaPage() {
 
       <LegalSection title="8. Legislación Aplicable">
         <p>
-          Estas condiciones se rigen por la legislación española en materia de protección
-          animal y de consumidores. Cualquier controversia se someterá a los Juzgados y
-          Tribunales de [[DATO Ciudad de jurisdicción]], sin perjuicio del fuero que
+          Estas condiciones se rigen por la legislación de la República del Ecuador en
+          materia de bienestar animal y de defensa del consumidor. Cualquier controversia
+          se someterá a los jueces y tribunales competentes de{" "}
+          [[DATO Ciudad de jurisdicción, ej. Quito]], sin perjuicio del fuero que
           corresponda al consumidor conforme a la normativa vigente.
         </p>
       </LegalSection>

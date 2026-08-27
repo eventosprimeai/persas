@@ -13,16 +13,16 @@ export default function AvisoLegalPage() {
     <LegalLayout title="Aviso Legal" updatedAt="27 de agosto de 2026" breadcrumbLabel="Aviso Legal">
       <LegalSection title="1. Datos Identificativos del Titular">
         <p>
-          En cumplimiento del deber de información recogido en el artículo 10 de la Ley
-          34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio
-          Electrónico (LSSI-CE), se informa a los usuarios de los siguientes datos:
+          En cumplimiento del deber de información al consumidor establecido en la Ley
+          Orgánica de Defensa del Consumidor y la Ley Orgánica de Comercio Electrónico,
+          Firmas y Mensajes de Datos del Ecuador, se informa a los usuarios de los
+          siguientes datos:
         </p>
         <ul>
           <li><strong>Titular:</strong> {catteryConfig.legalName}</li>
           <li><strong>Nombre comercial:</strong> {catteryConfig.name}</li>
-          <li><strong>NIF/CIF:</strong> [[DATO NIF o CIF de la empresa]]</li>
-          <li><strong>Domicilio social:</strong> [[DATO Domicilio social completo]], {catteryConfig.location.city}, {catteryConfig.location.country}</li>
-          <li><strong>Registro Mercantil:</strong> [[DATO Datos de inscripción en el Registro Mercantil, si procede]]</li>
+          <li><strong>RUC:</strong> [[DATO Número de RUC de la empresa]]</li>
+          <li><strong>Domicilio:</strong> [[DATO Domicilio completo]], {catteryConfig.location.city}, {catteryConfig.location.country}</li>
           <li><strong>Correo electrónico:</strong> {catteryConfig.contact.email}</li>
           <li><strong>Teléfono:</strong> {catteryConfig.contact.phoneFormatted}</li>
         </ul>
@@ -78,10 +78,11 @@ export default function AvisoLegalPage() {
 
       <LegalSection title="7. Legislación Aplicable y Jurisdicción">
         <p>
-          Las presentes condiciones se rigen por la legislación española. Para cualquier
-          controversia derivada del acceso o uso del Sitio Web, las partes se someten a los
-          Juzgados y Tribunales de [[DATO Ciudad de jurisdicción]], salvo que la normativa
-          de consumidores y usuarios establezca un fuero distinto de carácter imperativo.
+          Las presentes condiciones se rigen por la legislación de la República del
+          Ecuador. Para cualquier controversia derivada del acceso o uso del Sitio Web, las
+          partes se someten a los jueces y tribunales competentes de{" "}
+          [[DATO Ciudad de jurisdicción, ej. Quito]], salvo que la normativa de defensa del
+          consumidor establezca un fuero distinto de carácter imperativo.
         </p>
       </LegalSection>
     </LegalLayout>

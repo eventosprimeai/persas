@@ -28,8 +28,9 @@ export default function PoliticaCookiesPage() {
         <ul>
           <li>
             <strong>Cookies técnicas propias:</strong> necesarias para la navegación básica
-            y el funcionamiento de los formularios de contacto y reserva. No requieren
-            consentimiento conforme al artículo 22.2 de la LSSI-CE.
+            y el funcionamiento de los formularios de contacto y reserva. Al ser
+            estrictamente necesarias para el funcionamiento del Sitio Web, no requieren
+            consentimiento previo del usuario.
           </li>
         </ul>
         <p>

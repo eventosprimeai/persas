@@ -29,6 +29,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# secrets / sensitive local files - never commit
+recovery-codes.txt
+Buyer persona.txt
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

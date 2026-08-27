@@ -4,7 +4,7 @@ import { catteryConfig } from "@/data/cattery";
 
 export const metadata: Metadata = {
   title: `Política de Privacidad | ${catteryConfig.name}`,
-  description: "Cómo tratamos, protegemos y utilizamos tus datos personales en Imperium Persians, conforme al RGPD y la LOPDGDD.",
+  description: "Cómo tratamos, protegemos y utilizamos tus datos personales en Imperium Persians, conforme a la Ley Orgánica de Protección de Datos Personales (LOPDP) del Ecuador.",
   robots: { index: true, follow: true },
 };
 
@@ -18,10 +18,14 @@ export default function PoliticaPrivacidadPage() {
       <LegalSection title="1. Responsable del Tratamiento">
         <ul>
           <li><strong>Responsable:</strong> {catteryConfig.legalName}</li>
-          <li><strong>NIF/CIF:</strong> [[DATO NIF o CIF de la empresa]]</li>
-          <li><strong>Domicilio:</strong> [[DATO Domicilio social completo]], {catteryConfig.location.city}, {catteryConfig.location.country}</li>
+          <li><strong>RUC:</strong> [[DATO Número de RUC de la empresa]]</li>
+          <li><strong>Domicilio:</strong> [[DATO Domicilio completo]], {catteryConfig.location.city}, {catteryConfig.location.country}</li>
           <li><strong>Correo electrónico de contacto:</strong> {catteryConfig.contact.email}</li>
         </ul>
+        <p>
+          Este sitio cumple con lo establecido en la Ley Orgánica de Protección de Datos
+          Personales (LOPDP) del Ecuador.
+        </p>
       </LegalSection>
 
       <LegalSection title="2. Datos que Recopilamos">
@@ -48,9 +52,10 @@ export default function PoliticaPrivacidadPage() {
 
       <LegalSection title="4. Legitimación">
         <p>
-          La base legal para el tratamiento de tus datos es el consentimiento expreso que
-          otorgas al marcar la casilla de aceptación en nuestros formularios, conforme al
-          artículo 6.1.a del Reglamento (UE) 2016/679 (RGPD).
+          La base legal para el tratamiento de tus datos es el consentimiento expreso,
+          libre, específico e informado que otorgas al marcar la casilla de aceptación en
+          nuestros formularios, conforme a la Ley Orgánica de Protección de Datos
+          Personales (LOPDP) del Ecuador.
         </p>
       </LegalSection>
 
@@ -66,19 +71,21 @@ export default function PoliticaPrivacidadPage() {
         <p>
           Tus datos podrán ser tratados por proveedores tecnológicos que prestan servicios
           de alojamiento web y mensajería (por ejemplo, WhatsApp Business, propiedad de
-          Meta Platforms Ireland Ltd.), quienes actúan como encargados del tratamiento bajo
-          contrato conforme al artículo 28 del RGPD.
+          Meta Platforms), quienes actúan como encargados del tratamiento bajo contrato,
+          conforme a lo dispuesto en la Ley Orgánica de Protección de Datos Personales
+          (LOPDP) del Ecuador.
         </p>
       </LegalSection>
 
       <LegalSection title="7. Derechos del Usuario">
         <p>
           Puedes ejercer en cualquier momento tus derechos de acceso, rectificación,
-          supresión, oposición, limitación del tratamiento y portabilidad, escribiendo a{" "}
+          actualización, eliminación, oposición y portabilidad de tus datos personales,
+          escribiendo a{" "}
           <a href={`mailto:${catteryConfig.contact.email}`}>{catteryConfig.contact.email}</a>{" "}
           adjuntando copia de un documento que acredite tu identidad. Asimismo, tienes
-          derecho a presentar una reclamación ante la Agencia Española de Protección de
-          Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">www.aepd.es</a>).
+          derecho a presentar una reclamación ante la Superintendencia de Protección de
+          Datos Personales del Ecuador.
         </p>
       </LegalSection>
 

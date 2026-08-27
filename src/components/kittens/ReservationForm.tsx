@@ -163,7 +163,7 @@ export function ReservationForm({
             <input
               type="tel"
               {...register("phone")}
-              placeholder="+34 600 000 000"
+              placeholder="+593 99 000 0000"
               className="w-full bg-noir border border-noir-line text-bone text-xs px-3.5 py-3 focus:border-gold focus:outline-none transition-colors"
             />
             {errors.phone && (
@@ -181,7 +181,7 @@ export function ReservationForm({
             <input
               type="text"
               {...register("city")}
-              placeholder="Ej. Madrid, Barcelona, Valencia..."
+              placeholder="Ej. Quito, Guayaquil, Cuenca..."
               className="w-full bg-noir border border-noir-line text-bone text-xs px-3.5 py-3 focus:border-gold focus:outline-none transition-colors"
             />
             {errors.city && (
@@ -227,9 +227,9 @@ export function ReservationForm({
               {...register("homeType")}
               className="w-full bg-noir border border-noir-line text-bone text-xs px-3.5 py-3 focus:border-gold focus:outline-none transition-colors cursor-pointer"
             >
-              <option value="piso">Piso / Apartamento</option>
-              <option value="casa_con_jardin">Casa con jardín protegido</option>
-              <option value="atico">Ático con terraza asegurada</option>
+              <option value="piso">Departamento</option>
+              <option value="casa_con_jardin">Casa con jardín o patio protegido</option>
+              <option value="atico">Departamento con balcón/terraza asegurado</option>
             </select>
           </div>
         </div>

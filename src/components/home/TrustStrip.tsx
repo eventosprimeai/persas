@@ -1,12 +1,12 @@
-import { Award, Dna, FileCheck, Home } from "lucide-react";
+import { Award, Camera, Dna, FileCheck } from "lucide-react";
 import { trustPoints } from "@/data/cattery";
 
 export function TrustStrip() {
   const icons = [
     <Award key="award" className="w-7 h-7 text-gold stroke-[1.4]" />,
+    <Camera key="camera" className="w-7 h-7 text-gold stroke-[1.4]" />,
     <Dna key="dna" className="w-7 h-7 text-gold stroke-[1.4]" />,
     <FileCheck key="filecheck" className="w-7 h-7 text-gold stroke-[1.4]" />,
-    <Home key="home" className="w-7 h-7 text-gold stroke-[1.4]" />,
   ];
 
   return (

@@ -273,7 +273,7 @@ export default function ContactoPage() {
                     <input
                       type="tel"
                       {...register("phone")}
-                      placeholder="+34 600 000 000"
+                      placeholder="+593 99 000 0000"
                       className="w-full bg-noir border border-noir-line text-bone text-xs px-3.5 py-3 focus:border-gold focus:outline-none transition-colors"
                     />
                     {errors.phone && (

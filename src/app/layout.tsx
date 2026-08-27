@@ -29,27 +29,29 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Imperium Persians | Criadero Exclusivo de Gatos Persas de Pedigrí",
+  title: "Imperium Persians | Gatos Persas con Pedigrí en Ecuador",
   description:
-    "Criadero especializado en gatos persas de alta pureza genética en Madrid, España. Ejemplares Chinchilla Silver, Golden Shaded y Bicolor 100% libres de PKD por ADN. Reserva tu gatito con contrato y garantía.",
+    "Criadero especializado en gatos persas de pedigrí en Ecuador. Fotos y video reales antes de comprar, ejemplares 100% libres de PKD por ADN, precio claro sin sorpresas y entrega segura a Quito, Guayaquil, Cuenca y todo el país.",
   keywords: [
-    "criadero gatos persas",
+    "gatos persas ecuador",
+    "gatos persas en venta ecuador",
+    "gatitos persas quito",
+    "gatos persas guayaquil",
     "comprar gato persa con pedigri",
-    "gato persa chinchilla madrid",
-    "persa golden shaded españa",
-    "criadero persas etico",
+    "criadero de gatos persas ecuador",
+    "gato persa chinchilla ecuador",
     "gatitos persas libres de pkd",
   ],
   authors: [{ name: "Imperium Persians" }],
   creator: "Imperium Persians",
   openGraph: {
     type: "website",
-    locale: "es_ES",
+    locale: "es_EC",
     url: "https://imperiumpersians.com",
     siteName: "Imperium Persians",
-    title: "Imperium Persians | Criadero Exclusivo de Gatos Persas",
+    title: "Imperium Persians | Gatos Persas con Pedigrí en Ecuador",
     description:
-      "Belleza aristocrática, salud genética certificada y temperamento inigualable. Conoce nuestros gatitos persas disponibles.",
+      "Fotos y video 100% reales, salud genética certificada y precio claro desde el primer mensaje. Conoce nuestros gatitos persas disponibles en Ecuador.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1200&auto=format&fit=crop",

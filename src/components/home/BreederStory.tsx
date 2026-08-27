@@ -55,10 +55,10 @@ export function BreederStory() {
                 <span className="text-bone">{catteryConfig.name}</span> con una convicción inquebrantable: demostrar que la crianza de gatos de alta competición puede y debe realizarse en un entorno 100% familiar, con amor absoluto y respeto biológico hacia la especie.
               </p>
               <p>
-                Durante más de una década hemos seleccionado meticulosamente líneas de sangre de los campeonatos más prestigiosos de Europa. Cada uno de nuestros gatos persas vive libre dentro de nuestra casa, convive con nosotros a diario y recibe estimulación temprana para desarrollar ese temperamento dulce, sereno y empático que define al auténtico persa aristocrático.
+                Durante más de una década hemos seleccionado meticulosamente líneas de sangre importadas de los campeonatos más prestigiosos a nivel internacional. Cada uno de nuestros gatos persas vive libre dentro de nuestra casa, convive con nosotros a diario y recibe estimulación temprana para desarrollar ese temperamento dulce, sereno y empático que define al auténtico persa aristocrático.
               </p>
               <p>
-                La salud es nuestro pilar innegociable: todos nuestros reproductores están testados por ADN libres de la mutación PKD (enfermedad poliquística renal), garantizando que tu nuevo miembro familiar disfrutará de una vida longeva, sana y plena.
+                Cuando escribes por WhatsApp hablas conmigo, no con un anuncio anónimo: te muestro al gatito en videollamada, sus padres y sus certificados antes de que decidas nada. La salud es nuestro pilar innegociable: todos nuestros reproductores están testados por ADN libres de la mutación PKD (enfermedad poliquística renal), garantizando que tu nuevo miembro familiar disfrutará de una vida longeva, sana y plena.
               </p>
             </div>
 

@@ -18,9 +18,23 @@ export const faqsData: FAQItem[] = [
   {
     id: "faq-envios",
     category: "envio",
-    question: "¿Realizan envíos a otras ciudades o fuera del país? ¿Cómo viajan?",
+    question: "¿Hacen envíos a otras ciudades del Ecuador? ¿Cómo viaja el gatito?",
     answer:
-      "Jamás enviamos gatitos por servicios de paquetería o carga ordinaria. Las entregas fuera de nuestra ciudad se realizan mediante nuestro servicio exclusivo de Pet-Nanny en cabina (un miembro del equipo viaja en avión o tren de alta velocidad acompañando al gatito en todo momento) o entrega personal en mano en el aeropuerto/estación acordada.",
+      "Jamás enviamos gatitos por servicios de encomienda o carga ordinaria. Las entregas fuera de nuestra ciudad se coordinan mediante nuestro servicio exclusivo de Pet-Nanny (un miembro del equipo viaja acompañando al gatito en todo momento por vía terrestre o aérea según la distancia) o entrega personal en mano en un punto acordado. Cubrimos Quito, Guayaquil, Cuenca, Ambato y el resto del país, y coordinamos todo por videollamada antes de mover al gatito.",
+  },
+  {
+    id: "faq-autenticidad",
+    category: "adopcion",
+    question: "¿Cómo sé que es un persa 100% de raza y no un mestizo o \"semi persa\"?",
+    answer:
+      "Cada gatito se entrega con certificado de pedigrí oficial (WCF/TICA) de 5 generaciones a nombre del comprador, con el número de registro verificable y la ficha de sus padres. Antes de reservar puedes ver por videollamada al gatito y a sus progenitores en nuestra casa, no solo fotos. Si un anuncio no puede mostrarte pedigrí verificable ni una videollamada en vivo, no es un persa de raza garantizada.",
+  },
+  {
+    id: "faq-confianza",
+    category: "adopcion",
+    question: "¿Cómo sé que no es una estafa y que no voy a pagar por algo que no existe?",
+    answer:
+      "Entendemos la desconfianza: es el motivo por el que estructuramos todo el proceso alrededor de la verificación antes del pago. Primero una videollamada en vivo con el gatito real y sus padres, después contrato de reserva por escrito con el precio total sin costos ocultos, y solo entonces una señal del 30% que se descuenta del total. Nunca pedimos el pago completo por adelantado ni antes de que veas al ejemplar en video.",
   },
   {
     id: "faq-pagos",
@@ -62,6 +76,6 @@ export const faqsData: FAQItem[] = [
     category: "adopcion",
     question: "¿Qué documentación oficial se entrega junto con el gatito?",
     answer:
-      "Cada ejemplar se entrega con: 1) Certificado de Pedigrí oficial de 5 generaciones (WCF/TICA), 2) Pasaporte Sanitario Europeo / Cartilla de Vacunación oficial al día, 3) Certificado veterinario de buena salud emitido menos de 48h antes de la entrega, 4) Copia de los tests genéticos de los padres y 5) Contrato de cesión y garantías con validez legal.",
+      "Cada ejemplar se entrega con: 1) Certificado de Pedigrí oficial de 5 generaciones (WCF/TICA), 2) Cartilla de Vacunación oficial al día, 3) Certificado veterinario de buena salud emitido menos de 48h antes de la entrega, 4) Copia de los tests genéticos de los padres y 5) Contrato de cesión y garantías con validez legal.",
   },
 ];
