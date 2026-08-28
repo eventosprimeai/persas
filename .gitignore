@@ -36,3 +36,7 @@ Buyer persona.txt
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local agent/skill tooling (not project source)
+.agents/
+skills-lock.json

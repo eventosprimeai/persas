@@ -7,34 +7,52 @@ import { SectionHeading } from "@/components/common/SectionHeading";
 
 const GALLERY_IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=85&w=1200&auto=format&fit=crop",
-    alt: "Gato Persa Golden Chinchilla en sesión de estudio",
-    caption: "Línea Golden Shaded — Belleza morfológica y ojos esmeralda",
+    src: "/images/gallery/momento-5.webp",
+    alt: "Persa Himalaya de ojos azul zafiro",
+    caption: "Persa Himalaya — Mirada zafiro que enamora a primera vista",
     span: "col-span-1 md:col-span-2 row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1573865526739-10659fec78a5?q=85&w=1200&auto=format&fit=crop",
-    alt: "Gatita Persa Chinchilla Silver descansando",
-    caption: "Crianza sin jaulas — Socialización en salón familiar",
+    src: "/images/gallery/momento-1.webp",
+    alt: "Gatito persa crema explorando el jardín",
+    caption: "Socialización temprana en jardín, libres y sin jaulas",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=85&w=1200&auto=format&fit=crop",
-    alt: "Gatito Persa jugando con pluma",
-    caption: "Juegos diarios y estimulación temprana de temperamento",
+    src: "/images/gallery/momento-3.webp",
+    alt: "Gatito persa chinchilla plateado de ojos verdes",
+    caption: "Chinchilla plateado de mirada esmeralda",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=85&w=1200&auto=format&fit=crop",
-    alt: "Persa Black Smoke con mirada ámbar",
-    caption: "Manto Black Smoke con subpelo blanco de alto contraste",
+    src: "/images/gallery/momento-4.webp",
+    alt: "Persa gris azulado adulto en el hogar",
+    caption: "Ejemplares adultos de temperamento sereno y hogareño",
     span: "col-span-1 md:col-span-2 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?q=85&w=1200&auto=format&fit=crop",
-    alt: "Detalle de cepillado y acicalamiento",
-    caption: "Higiene y mantenimiento profesional del manto sedoso",
+    src: "/images/gallery/momento-6.webp",
+    alt: "Persa negro sólido descansando en casa",
+    caption: "Negro sólido descansando en su ambiente familiar",
     span: "col-span-1 row-span-1",
+  },
+  {
+    src: "/images/gallery/momento-7.webp",
+    alt: "Gatito persa bicolor rojo y blanco en el jardín",
+    caption: "Bicolor rojo y blanco explorando el jardín",
+    span: "col-span-1 row-span-1",
+  },
+  {
+    src: "/images/gallery/momento-8.webp",
+    alt: "Gatito persa crema jugando con una hoja",
+    caption: "Momentos de juego y estimulación temprana",
+    span: "col-span-1 row-span-1",
+  },
+  {
+    src: "/images/gallery/momento-2.webp",
+    alt: "Gatito persa crema en el jardín frente a las casas",
+    caption: "Un vistazo al día a día de nuestras camadas",
+    span: "col-span-1 md:col-span-2 row-span-1",
   },
 ];
 

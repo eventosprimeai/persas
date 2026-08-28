@@ -6,7 +6,7 @@ import { KittenCard } from "@/components/kittens/KittenCard";
 import { Button } from "@/components/ui/Button";
 
 export function FeaturedKittens() {
-  const featuredKittens = kittensData.slice(0, 3);
+  const featuredKittens = kittensData.slice(0, 5);
   const availableCount = kittensData.filter((k) => k.status === "Disponible").length;
 
   return (

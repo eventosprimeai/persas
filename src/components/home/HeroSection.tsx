@@ -18,8 +18,8 @@ export function HeroSection() {
       {/* Background Image with Dark Luxury Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=85&w=2000&auto=format&fit=crop"
-          alt="Gato Persa Chinchilla de pedigrí sobre fondo oscuro"
+          src="/images/hero-elias-zafiro.webp"
+          alt="Elias Zafiro, Persa Himalaya de pedigrí con ojos azul zafiro"
           fill
           priority
           sizes="100vw"
